@@ -1,0 +1,102 @@
+* {
+    outline: 1px solid red !important;
+}
+
+html {
+    width: 100vw;
+    max-width: 960px;
+    margin: auto;
+}
+
+body {
+    color: white;
+    font-size: 2.25em;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(150, 202, 219);
+    height: 100px;
+    width: 100%;
+}
+
+nav {
+    background-color: rgb(128, 224, 228);
+    height: 100px;
+}
+
+section {
+    background-color: rgb(240, 173, 171);
+    height: 400px;
+}
+
+aside {
+    background-color: rgb(112, 219, 144);
+    height: 100px;
+}
+
+footer {
+    background-color: rgb(216, 159, 221);
+    height: 75px;
+    width: 100%;
+}
+
+@media screen and (min-width: 960px){
+    html {
+        width: 100vw;
+        max-width: 960px;
+        margin: auto;
+    }
+    
+    body {
+        color: white;
+        font-size: 2.25em;
+        font-family: Helvetica, sans-serif;
+    }
+    
+    div {
+        width: 100%;
+    }
+
+    footer:after{
+        clear: both;
+    }
+    
+    header {
+        background-color: rgb(150, 202, 219);
+        height: 100px;
+        width: 100%;
+    }
+    
+    nav {
+        float: left;
+        background-color: rgb(128, 224, 228);
+        height: 400px;
+        width: 20%
+    }
+    
+    section {
+        float: left;
+        background-color: rgb(240, 173, 171);
+        height: 400px;
+        width: 60%
+    }
+    
+    aside {
+        float: left;
+        background-color: rgb(112, 219, 144);
+        height: 400px;
+        width: 20%;
+    }
+    
+    footer {
+        background-color: rgb(216, 159, 221);
+        height: 75px;
+        width: 100%;
+    }
+
+    footer {
+        display: inline-block;
+    }
+
+}
