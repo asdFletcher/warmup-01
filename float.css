@@ -1,0 +1,71 @@
+* {
+
+}
+
+html, body {
+  height: 100%;
+  color: rgb(0, 0, 0);
+}
+
+header, footer, nav, aside, section {
+  text-align:center;
+}
+
+header {
+  background:rgb(160, 191, 238);
+  height: 15%;
+}
+
+footer {
+  background:rgb(238, 160, 233);
+  height: 15%;
+}
+
+main {
+  height: 70%;
+}
+
+section {
+  height: 50%;
+  background: rgb(249, 185, 185);
+}
+
+aside {
+  height: 25%;
+  background: rgb(183, 242, 141);
+}
+
+nav {
+  height: 25%;
+  background: #9ef2e7;
+}
+
+@media (min-width: 960px) {
+
+  main {
+    height: 70%;
+    /* overflow:hidden; */
+    /* height:calc(100% - 140px); */
+  }
+
+  main > .content {
+      /* height: 100%; */
+  }
+
+  main nav {
+      float:left;
+      /* height:100%; */
+      /* width: 250px; */
+  }
+
+  main aside {
+      float:right;
+      /* height:100%; */
+      /* width: 250px; */
+  }
+
+  .deck {
+      /* height:100%; */
+  }
+
+}
